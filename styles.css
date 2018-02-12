@@ -1,0 +1,353 @@
+* {
+  box-sizing: border-box;
+}
+
+article {
+  width: 20vw;
+  height: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  font-size: 1.4vw;
+  flex-direction: column;
+}
+
+article:hover {
+  opacity: 0.8;
+}
+
+body {
+  max-width: 100vw;
+  max-height: 60vw;
+  color: cornsilk;
+  font-family: 'Roboto Slab', serif;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  border: solid 1.5px cornsilk;
+  background-color: #86100A;
+  color: cornsilk;
+  font-family: 'Roboto Slab', serif;
+  font-size: 19px;
+  text-align: center;
+}
+
+div {
+  padding: 3%;
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 38px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+header {
+  width: 40vw;
+  height: 20vw;
+  background-color: #86100A;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 2% 5% 2% 4%;
+}
+
+img {
+  width: 35%;
+  height: 35%;
+}
+
+main {
+  display: flex;
+}
+
+p {
+  display: block;
+  margin: 1% 1% 1% 0;
+  font-size: 14px;
+  line-height: 1.9vw;
+}
+
+.attire {
+  background-color: #69CCE2;
+}
+
+.bottom {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  z-index: -1;
+}
+
+.bottom:hover {
+  z-index: 1;
+}
+
+.carousel-button {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  opacity: 0.5;
+  border-radius: 50%;
+  margin: 0 20px;
+  font-size: 14px;
+}
+
+.eagle-powers {
+  background-color: #86100A;
+}
+
+.faith {
+  background-color: #5A9D95;
+}
+
+.fight-button {
+  margin: 4% 0 0 2%;
+}
+
+.fight-button-icon {
+ width: 1.7vw;
+ height: 1.7vw;
+ margin-right: 10%;
+ }
+
+.hidden-profile {
+  display: none;
+}
+
+.hidden-image {
+  display: none;
+}
+
+.image {
+  width: 40vw;
+  height: 60vw;
+  background-image: url('NachoLibreProfile copy.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  display: flex;
+  width: 60%;
+  height: 60vw;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.nutrients {
+  background-color: #CE6D57;
+}
+
+.pray-button {
+  margin: 4% 4% 0 0;
+}
+
+.pray-button-icon {
+  width: 1.7vw;
+  height: 1.7vw;
+  margin-right: 10%;
+}
+
+.profile {
+  background-color: goldenrod;
+}
+
+.right-section {
+  width: 40%;
+  height: 60vw;
+}
+
+.skills {
+  background-color:  #CE6D57;
+}
+
+.transportation {
+  background-color: #5A9D95;
+}
+
+@media screen and (max-width: 1200px) {
+
+  article {
+    width: 25vw;
+    height: 25vw;
+  }
+
+  header {
+    width: 50vw;
+    height: 25vw;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .attire {
+    order: 3;
+  }
+
+  .bottom {
+    width: 25vw;
+    height: 25vw;
+  }
+
+   .carousel-button {
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+  }
+
+  .eagle-powers {
+    order: 7;
+  }
+
+  .faith {
+    order: 1;
+  }
+
+  .fight-button,
+  .pray-button {
+    font-size: 14px;
+  }
+
+  .hidden-profile {
+    display: block;
+    background-color: goldenrod;
+    width: 50vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-size: 1.4vw;
+    flex-direction: column;
+  }
+
+  .image {
+    width: 50vw;
+    height: 75vw;
+  }
+
+  .left-section {
+    width: 50%;
+  }
+
+  .nutrients {
+    order: 6;
+  }
+
+  .profile {
+    display: none;
+  }
+
+  .right-section {
+    width: 50%;
+  }
+
+  .skills {
+    order: 2;
+  }
+
+  .transportation {
+    order: 4;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  article {
+    height: 50vw;
+    width: 50vw;
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  header {
+    width: 100vw;
+    height: 50vw;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .bottom {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .eagle-powers {
+    width: 100%;
+  }
+
+  .fight-button-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .hidden-image {
+    display: block;
+    width: 100vw;
+    height: 60vw;
+    background-image: url('NachoLibreProfile-Copy.jpg');
+    background-size: cover;
+    background-position: top;
+  }
+
+  .hidden-profile {
+    display: none;
+  }
+
+  .left-section {
+    width: 100%;
+  }
+
+  .pray-button-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .profile {
+    display: flex;
+  }
+
+  .right-section {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  article {
+    font-size: 11px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .fight-button,
+  .pray-button {
+    margin: 10px 0 0 0;
+    height: 30px;
+  }
+
+  .right-section {
+    display: none;
+  }
+
+}
