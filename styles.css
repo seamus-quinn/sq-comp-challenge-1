@@ -141,6 +141,12 @@ p {
   flex-direction: row;
 }
 
+.nachooo {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
 .nutrients {
   background-color: #CE6D57;
 }
